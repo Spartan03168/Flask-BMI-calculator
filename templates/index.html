@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Flask BMI Calculator</title>
+  </head>
+  <body>
+    <form method="post">
+      <label for="weight">Weight (kg):</label>
+      <input type="text" name="weight" id="weight">
+      <br>
+      <label for="height">Height (m):</label>
+      <input type="text" name="height" id="height">
+      <br>
+      <input type="submit" value="Calculate BMI">
+    </form>
+    <p>BMI: {{ bmi }}</p>
+  </body>
+</html>
